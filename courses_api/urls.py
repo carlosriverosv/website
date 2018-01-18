@@ -13,4 +13,5 @@ urlpatterns=[
 		views.RetrieveUpdateDestroyReview.as_view(),
 		name = 'review_detail'),
 
+
 ]
