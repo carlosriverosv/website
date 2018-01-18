@@ -12,4 +12,5 @@ urlpatterns=[
 	url(r'^(?P<course_pk>\d+)/reviews/(?P<pk>\d+)/$',
 		views.RetrieveUpdateDestroyReview.as_view(),
 		name = 'review_detail'),
+
 ]
